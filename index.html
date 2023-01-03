@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Easy Transcribe</title>
+</head>
+<body>
+  <div id="form_wrapper">
+    <form action="#" id="form">
+        <input type="text" name="sp1_input" id="sp1_input" class="text_input" placeholder="Name of speaker 1">
+        <input type="text" name="sp2_input" id="sp2_input" class="text_input" placeholder="Name of speaker 2">
+        <input type="submit" value="Choose speakers">  
+    </form>
+  </div>
+    <textarea disabled name="text" id="textarea" cols="30" rows="10" placeholder="Choose speakers to begin writing text..."></textarea>
+    <button id="copy-btn" onclick="copyToClipboard()">Copy to clipboard</button>
+</body>
+
+<script src="app.js"></script>
+</html>
