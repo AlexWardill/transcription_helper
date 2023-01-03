@@ -1,5 +1,5 @@
 # transcription_helper
-Tool to help in manual interview transcription.
+Tool to help in manual interview transcription/script (dialogue) writing.
 
 ### Instructions
 - Add names of 2 speakers.
